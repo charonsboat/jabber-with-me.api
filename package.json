@@ -1,8 +1,9 @@
 {
-  "name": "feedbackr.api",
+  "name": "jabber-with-me",
   "main": "server.js",
   "dependencies": {
     "express": "^4.0.0",
+    "jade": "^1.8.2",
     "node-env-file": "^0.1.4"
   }
 }

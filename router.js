@@ -5,7 +5,7 @@ module.exports = function (app, express)
 
 	router.get('/', function (req, res)
 	{
-		res.render('index', { title: 'Test Title', header: 'Hello, World!' });
+		res.render('home', { title: 'Test Title' });
 	});
 
 	app.use('/', router);

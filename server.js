@@ -17,7 +17,7 @@ var env		= require('node-env-file');
 var port	= process.env.PORT || 1337;
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.set('view engine', 'jade');
+app.set('view engine', 'hbs');
 
 // ROUTES
 // ===================================================================

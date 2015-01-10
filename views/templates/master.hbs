@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<title>{{ title }}</title>
+
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+	{{ body }}
+</body>
+</html>
+
+doctype html
+
+html
+	head
+		title!= title
+
+		link(rel='stylesheet', href='/assets/css/main.css')
+	body
+		//- body block
+		block body

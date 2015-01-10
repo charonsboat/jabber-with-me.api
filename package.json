@@ -3,6 +3,7 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.0.0",
+    "hbs": "^2.8.0",
     "jade": "^1.8.2",
     "mocha": "^2.1.0",
     "node-env-file": "^0.1.4"

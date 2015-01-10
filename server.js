@@ -23,7 +23,7 @@ app.set('view options', { layout: 'templates/master' });
 // ROUTES
 // ===================================================================
 
-router(app, express);
+router.Route(app, express);
 
 // START SERVER
 // ===================================================================
